@@ -6,8 +6,9 @@ public class Problem20 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		Double number = null;
 		try {
-			Double number = Double.valueOf("120d");
+			number = Double.valueOf("120d");
 		} catch (NumberFormatException ex) {
 		}
 		System.out.println(number);
